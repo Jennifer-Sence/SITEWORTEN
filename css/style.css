@@ -38,6 +38,10 @@ nav input::placeholder{
     
 }
 
+main p{
+    text-align: center;
+}
+
 footer{
     background-color: var(--corPrimaria);
     color: var(--branco);
