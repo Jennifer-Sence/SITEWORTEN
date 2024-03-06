@@ -39,5 +39,13 @@ nav input::placeholder{
 }
 
 footer{
-    background-color: var(--corPrimaria)
+    background-color: var(--corPrimaria);
+    color: var(--branco);
+}
+
+footer a{
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    padding: 5px;
+    border-radius: 100%;
 }
