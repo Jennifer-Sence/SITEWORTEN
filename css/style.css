@@ -9,6 +9,17 @@ body{
    font-family: "Open Sans", sans-serif;
 }
 
+.btn{
+    background-color: var(--corPrimaria);
+    color: var(--branco);
+    border: 1px solid var(--branco);
+}
+
+.btn:hover{
+    background-color: var(--branco);
+    color: var(--corPrimaria);
+}
+
 header{
     background-color: var(--corPrimaria);
 }
