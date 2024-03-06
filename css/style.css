@@ -1,6 +1,7 @@
 :root{
     --corPrimaria: #E41B15;
     --branco: #fff;
+    --cinzento: #aaa;
     --preto: #000;
 }
 
@@ -11,8 +12,19 @@ body{
 header{
     background-color: var(--corPrimaria);
 }
+
 header img{
     width: 200px;
+}
+
+nav input{
+    background-color: var(--branco) !important; /*  ! important */
+    color: var(--preto) !important;
+}
+
+nav input::placeholder{
+    color: var(--cinzento) !important;
+    
 }
 
 footer{
