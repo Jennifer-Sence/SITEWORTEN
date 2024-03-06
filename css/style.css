@@ -1,0 +1,20 @@
+:root{
+    --corPrimaria: #E41B15;
+    --branco: #fff;
+    --preto: #000;
+}
+
+body{
+   font-family: "Open Sans", sans-serif;
+}
+
+header{
+    background-color: var(--corPrimaria);
+}
+header img{
+    width: 200px;
+}
+
+footer{
+    background-color: var(--corPrimaria)
+}
