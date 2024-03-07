@@ -56,6 +56,10 @@ footer{
     color: var(--branco);
 }
 
+#gmaps{
+    height: 400px;
+}
+
 footer a{
     color: var(--branco);
     border: 1px solid var(--branco);
