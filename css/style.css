@@ -15,9 +15,14 @@ body{
     border: 1px solid var(--branco);
 }
 
+.badge{
+    background-color: var(--corPrimaria);
+}
+
 .btn:hover{
     background-color: var(--branco);
     color: var(--corPrimaria);
+    border: 1px solid var(--corPrimaria);
 }
 
 header{
@@ -40,6 +45,10 @@ nav input::placeholder{
 
 main p{
     text-align: center;
+}
+
+.card-title{
+    min-height: 75px;
 }
 
 footer{
